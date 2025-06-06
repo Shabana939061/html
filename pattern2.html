@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><form action="./pattern1.html">
+    <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="password" name="password" pattern="(?=.*[A-z])(?=.*[/d])(?=.*[!@#$%^&]).{8-16}" required placeholder="Enter your Password"><br><br>
+    <label for="dmy">Chose your Date:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="dmy" name="date"
+  pattern="20(0[0-9])-(0[1-9]|1[0-2]|[60])-(0[1-9]|[12][0-9]|3[01])"title="Enter a date between 2000-01-01 and 2060-12-31 in the format YYYY-MM-DD"
+   required placeholder="YYYY-MM-DD"><br><br>
+<input type="submit" value="submit"></form>
+   
+</body>
+</html>
