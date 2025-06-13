@@ -1,0 +1,17 @@
+#head1{
+    background-color: mediumblue;
+    color: beige;
+    height: 100px;
+   padding: 0px;
+   text-align: center;
+}
+#head2{
+    background-color: black;
+       color: beige;
+       text-align: center;
+}
+.p1{
+    font-size: 15px;
+     color: beige;
+    
+}
